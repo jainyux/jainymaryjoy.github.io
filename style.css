@@ -25,7 +25,7 @@ html{
 .nav1{
 position: fixed;
 top: 0; left: 0; right: 0;
-background: #FCF1ED;
+background: #000000;
 
 padding: 0px 7%;
 display: flex;
@@ -68,7 +68,7 @@ font-style: italic;
 font-size: 20px;
 font-weight: bold;
 padding: 20px;
-color: #003B4A;
+color: #fff;
 display: block;
 text-decoration: none;
 }
@@ -871,6 +871,9 @@ letter-spacing: 2px;
                 background: #262626;
                 font-weight: 300;
                 margin-top: 20px;
+            }
+            .copyright p span{
+                color: #fff;
             }
             .copyright i{
                 color: #ff69b4;
