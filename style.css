@@ -1,26 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
    
 }
 html{
     scroll-behavior: smooth;
 }
-body {
-    background: #d8d2e4;
-    color: #fff;
-}
-#header {
-    width: 100%;
+ body{
+    background: #000000;
+  }
+
+  .header{
     height: 100vh;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    width: 100%;
+   
     
-}
+  }
 .container{
     padding: 10px 10%;
 }
@@ -105,6 +103,197 @@ text-decoration: none;
     display: initial;
 }
 
+
+.cardcontainer{
+    
+    margin-top: 30px;
+    height: 600px;
+        width:100%;
+   
+    
+    padding: 10px;
+  
+
+}
+
+.card{
+  margin-top: 40px;
+    width: 350px;
+    height: 510px;
+  margin-left: 35%;
+    
+    perspective: 1000px;
+}
+
+.card-inner{
+    width: 100%;
+    height: 100%;
+   
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    backface-visibility: hidden;
+ 
+}
+
+.front{
+    background: #000000;
+    
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: hotpink 1px solid;
+  
+
+}
+.front img{
+    margin-left: 100px;
+    margin-top: 500px;
+height: 290px;
+width: 400px;
+}
+.front h2{
+    color: transparent;
+    letter-spacing: 3px;
+    background: linear-gradient(to left, hotpink, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.front p{
+   
+    color: #ccc;
+    font-size: 13px;
+    
+  
+}
+
+.front button{
+    width: 120px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #fff;
+    
+    
+}
+
+.back{
+    background: #fff;
+    color: #333;
+    padding: 20px 40px;
+    transform: rotateY(180deg);
+}
+
+.back h1{
+    font-size: 30px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.back h1 span{
+   font-weight: 400;
+}
+
+.back p{
+    font-size: 14px;
+}
+
+.back p span{
+    font-weight: 600;
+}
+
+.back img{
+    width: 120px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.col{
+    flex: 1;
+   text-align: center;
+   color: #555;
+   font-size: 12px;
+   position: relative;
+}
+
+.col h2{
+    font-size: 20px;
+}
+
+.col::after{
+    content: '';
+    width: 1.5px;
+    height: 20px;
+    background: #7800ad;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.col:last-child::after{
+   display: none;
+}
+
+.col p{
+    margin-top: 5px;
+}
+
+.col img{
+    width: 30px;
+    height: 30px;
+}
+.back button{
+    background: #7800ad;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 15px;
+    box-shadow: 0 8px 10px rgba(120, 0, 173, 0.3);
+}
+
+.back a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+
+}
+
+.back a img{
+    width: 50%;
+}
+
+.card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+
+
+
+/* 
 .header-text{
     margin: 20%;
     font-size: 30px;
@@ -112,8 +301,8 @@ text-decoration: none;
     letter-spacing: 3px;
    
     
-}
-.header-text p{
+} */
+/* .header-text p{
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -130,7 +319,7 @@ text-decoration: none;
     background: linear-gradient(to left, hotpink, purple);
     background-clip: text;
     -webkit-background-clip: text;
-}
+} */
 
 #about{
     padding: 80px 0;
@@ -219,7 +408,10 @@ text-decoration: none;
     padding-left: 80px;
     color: #080808;
 }
-
+#uiuxp {
+    color: #fff;
+    
+}
 
 
 .div-comfort{
