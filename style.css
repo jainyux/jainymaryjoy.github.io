@@ -1321,8 +1321,12 @@ width: 300px;
 .plantcol2 h1{
     margin-top: -60px;
 }
+
+          .div-airindia{
+              display:none;
                 
 }
+            }
 #msg{
  color: #61b752;
  margin-top: -40px;
