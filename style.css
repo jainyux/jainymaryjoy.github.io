@@ -1205,7 +1205,123 @@ width: 300px;
 .comfortcol2 p{
     margin-right: 20px;
     margin-bottom: -40px;
-}  
+} 
+
+.roomcol1{
+
+    height: 600px;
+    width: 500px;
+    
+    
+
+}
+.roomcol1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-roomar{
+    height: 500px;
+}
+.roomcol2{
+    height: 500px;
+
+}
+.roomcol2 a{
+    margin-top: 15px;
+    margin-right: 20px;
+  
+    
+    
+}
+.roomcol2 h1{
+    margin-top: -50px;
+}
+.roomcol2 p{
+    margin-bottom: -55px;
+    margin-right: 15px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+
+
+.eatcol1{
+
+    height: 600px;
+    width: 500px;
+    
+    
+
+}
+.eatcol1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-eatfoo{
+    height: 550px;
+}
+
+
+.eatcol2 a {
+    
+    margin-top: 15px;
+    margin-right: 20px;
+           
+}
+
+.eatcol2 p{
+    margin-bottom: -40px;
+    margin-right: 15px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+
+.eatcol2 h1{
+    margin-top: -60px;
+}
+
+
+
+.plantcol1{
+
+    height: 600px;
+    width: 500px;
+    
+    
+
+}
+.plantcol1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-plant{
+    height: 550px;
+}
+
+
+.plantcol2 a {
+    
+    margin-top: 15px;
+    margin-right: 20px;
+           
+}
+
+.plantcol2 p{
+    margin-bottom: -40px;
+    margin-right: 15px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+
+.plantcol2 h1{
+    margin-top: -60px;
+}
+                
 }
 #msg{
  color: #61b752;
