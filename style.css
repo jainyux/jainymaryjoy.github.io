@@ -54,7 +54,9 @@ font-style: italic;
    
     font-family: 'Urbanist', sans-serif;
 }
-
+.nav1 p{
+    color: purple;
+}
 .nav1 .navbar ul{
     list-style: none;
     
