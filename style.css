@@ -669,16 +669,16 @@ a.buttonuxap:hover{
 
 .plantcol1{
     flex-basis: 35%;
-    postion: relative;
+    
     
     
     
 }
 .plantcol1 img{
-   position:absolute;
+ 
     width: 90%;
     height: 450px;
-   margin-bottom: 10px
+  
     border-radius: 15px; 
     padding-left: 60px;
 }
